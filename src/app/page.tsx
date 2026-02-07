@@ -16,7 +16,7 @@ export default function Home() {
             '@type': 'Person',
             name: 'Sanan',
             jobTitle: 'Full Stack Developer',
-            url: process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000',
+            url: process.env.NEXT_PUBLIC_BASE_URL || 'sanpf-cv.vercel.app',
             sameAs: [
               'https://github.com/sananbsd2021',
               'https://linkedin.com/in/yourusername',
