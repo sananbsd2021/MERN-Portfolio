@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'Sanan' }],
   creator: 'Sanan',
   publisher: 'Sanan',
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'sanpf-cv.vercel.app'),
   alternates: {
     canonical: '/',
   },
