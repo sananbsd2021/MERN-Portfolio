@@ -26,8 +26,8 @@ const projects = [
         description: 'ระบบจัดการงานที่ทำงานร่วมกันได้แบบเรียลไทม์ พร้อมพื้นที่ทำงานของทีมและการแจ้งเตือนอัจฉริยะ',
         tags: ['React', 'Node.js', 'Socket.io', 'Tailwind'],
         category: 'Fullstack',
-        github: '#',
-        demo: '#',
+        github: 'https://github.com/sananbsd2021/MERN-TaskManager',
+        demo: 'https://mern-task-manager-weld.vercel.app/',
         image: 'task.png',
     },
     {
