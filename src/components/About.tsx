@@ -31,7 +31,7 @@ export default function About() {
                     >
                         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">เกี่ยวกับฉัน</h2>
                         <p className="text-muted-foreground text-lg leading-relaxed">
-                            ผมเป็นนักพัฒนา Full Stack ที่มีความหลงใหลและเชี่ยวชาญใน MERN stack (MongoDB, Express, React, Node.js)
+                            ผมเป็นนักพัฒนา Full Stack ที่มีความหลงใหลและเชี่ยวชาญใน MERN stack (MongoDB, Express, React, Node.js, Python, PostgreSQL)
                             จุดเริ่มต้นของผมคือความอยากรู้อยากเห็นในการทำงานของเว็บไซต์ จนพัฒนามาเป็นอาชีพในการสร้างสรรค์
                             เว็บแอปพลิเคชันที่มีความซับซ้อนและประสิทธิภาพสูง
                         </p>
