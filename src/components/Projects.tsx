@@ -66,6 +66,15 @@ const projects = [
         demo: 'https://mern-wm-spro.vercel.app/',
         image: 'wms.png',
     },
+    {
+        title: 'Mobile Application Line OA Line Liff Application',
+        description: 'Line LIFF : Mobile Application Line OA Line Liff Application เชื่อมต่อกับ Line สำหรับธุรกิจ',
+        tags: ['React', 'Node.js', 'Tailwind', 'Line LIFF'],
+        category: 'Web',
+        github: 'https://github.com/sananbsd2021/LineLiff',
+        demo: 'https://mern-app-script.vercel.app',
+        image: 'lineliff.png',
+    },
 ];
 
 function ProjectCard({ project, index }: { project: typeof projects[0], index: number }) {
