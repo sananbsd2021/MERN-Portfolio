@@ -44,8 +44,8 @@ const projects = [
         description: 'แอป Food Delivery ครบวงจร พร้อมระบบสั่งอาหารและแดชบอร์ดร้านค้าที่ใช้งานง่าย',
         tags: ['Next.js', 'Tailwind', 'MongoDB', 'Shadcn'],
         category: 'Web',
-        github: 'https://github.com/sananbsd2021/fooddelivery',
-        demo: 'https://fooddelivery-five-rho.vercel.app/',
+        github: 'https://github.com/sananbsd2021/MERN-Fooddelivery',
+        demo: 'https://mern-fooddelivery.vercel.app',
         image: 'food.png',
     },
     {
@@ -69,8 +69,8 @@ const projects = [
     {
         title: 'Mobile Application Line OA Line Liff Application',
         description: 'Line LIFF : Mobile Application Line OA Line Liff Application เชื่อมต่อกับ Line สำหรับธุรกิจ',
-        tags: ['React', 'Node.js', 'Tailwind', 'Line LIFF'],
-        category: 'Web',
+        tags: ['Mobile App', 'Tailwind', 'Line LIFF'],
+        category: 'Mobile App',
         github: 'https://github.com/sananbsd2021/LineLiff',
         demo: 'https://mern-app-script.vercel.app',
         image: 'lineliff.png',
