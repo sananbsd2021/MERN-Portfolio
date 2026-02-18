@@ -45,7 +45,7 @@ const projects = [
         tags: ['Next.js', 'Tailwind', 'MongoDB', 'Shadcn'],
         category: 'Web',
         github: 'https://github.com/sananbsd2021/MERN-FoodDelivery',
-        demo: 'https://mern-food-delivery-iota.vercel.app/',
+        demo: 'https://mern-food-delivery-sigma.vercel.app/',
         image: 'food.png',
     },
     {
