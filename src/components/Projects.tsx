@@ -75,6 +75,15 @@ const projects = [
         demo: 'https://mern-app-script.vercel.app',
         image: 'lineliff.png',
     },
+    {
+        title: 'Bun + Elysia + MongoDB = Stack ที่ Dev สาย Performance',
+        description: 'REST API พร้อม Deploy แล้ว ด้วยพลัง Elysia + MongoDB',
+        tags: ['Bun', 'Elysia', 'Mongodb'],
+        category: 'API',
+        github: 'https://github.com/sananbsd2021/elysia-api-development',
+        demo: 'https://elysia-api-development.vercel.app/',
+        image: 'lineliff.png',
+    },
 ];
 
 function ProjectCard({ project, index }: { project: typeof projects[0], index: number }) {
