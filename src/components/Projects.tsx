@@ -82,7 +82,7 @@ const projects = [
         category: 'API',
         github: 'https://github.com/sananbsd2021/elysia-api-development',
         demo: 'https://elysia-api-development.vercel.app/',
-        image: 'lineliff.png',
+        image: 'api.png',
     },
 ];
 
