@@ -1,12 +1,16 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import ImageSlider from './ImageSlider';
+
 
 export default function About() {
+
     return (
         <section id="about" className="py-20 bg-background/50">
             <div className="container px-4 md:px-6">
                 <div className="flex flex-col md:flex-row gap-12 items-center">
+                    {/* <ImageSlider /> */}
                     <motion.div
                         initial={{ opacity: 0, x: -20 }}
                         whileInView={{ opacity: 1, x: 0 }}
@@ -17,7 +21,8 @@ export default function About() {
                         <div className="relative aspect-square max-w-sm mx-auto md:mr-auto rounded-2xl overflow-hidden shadow-2xl bg-muted">
                             {/* Placeholder for About Image if we had one, or a stylized div */}
                             <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-secondary/20 flex items-center justify-center text-4xl font-bold text-muted-foreground/20">
-                                <img src="sanan__4448270.jpg" alt="About" className="w-full h-full object-cover fit-cover" />
+                                {/* <img src="sanan__4448270.jpg" alt="About" className="w-full h-full object-cover fit-cover" /> */}
+                                <ImageSlider />
                             </div>
                         </div>
                     </motion.div>
@@ -31,7 +36,7 @@ export default function About() {
                     >
                         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">เกี่ยวกับฉัน</h2>
                         <p className="text-muted-foreground text-lg leading-relaxed">
-                            ผมเป็นนักพัฒนา Full Stack ที่มีความหลงใหลและเชี่ยวชาญใน MERN stack (MongoDB, Express, React, Node.js, Python, PostgreSQL)
+                            ผมเป็นนักพัฒนา Full Stack ที่มีความหลงใหลและเชี่ยวชาญใน MERN stack (MongoDB, Express, React, Node.js)
                             จุดเริ่มต้นของผมคือความอยากรู้อยากเห็นในการทำงานของเว็บไซต์ จนพัฒนามาเป็นอาชีพในการสร้างสรรค์
                             เว็บแอปพลิเคชันที่มีความซับซ้อนและประสิทธิภาพสูง
                         </p>
