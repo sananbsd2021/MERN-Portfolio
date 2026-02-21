@@ -9,7 +9,7 @@ import { Badge } from '@/components/ui/badge';
 import Link from 'next/link';
 import Image from 'next/image';
 
-const categories = ['All', 'Web', 'AI', 'Fullstack'];
+const categories = ['All', 'Web', 'AI', 'Fullstack', 'Mobile App', 'API'];
 
 const projects = [
     {
@@ -26,7 +26,7 @@ const projects = [
         description: 'ระบบจัดการงานที่ทำงานร่วมกันได้แบบเรียลไทม์ พร้อมพื้นที่ทำงานของทีมและการแจ้งเตือนอัจฉริยะ',
         tags: ['React', 'Node.js', 'Socket.io', 'Tailwind'],
         category: 'Fullstack',
-        github: '#',
+        github: 'https://github.com/sananbsd2021/MERN-TaskManager',
         demo: 'https://mern-task-manager-weld.vercel.app/',
         image: 'task.png',
     },
@@ -44,8 +44,8 @@ const projects = [
         description: 'แอป Food Delivery ครบวงจร พร้อมระบบสั่งอาหารและแดชบอร์ดร้านค้าที่ใช้งานง่าย',
         tags: ['Next.js', 'Tailwind', 'MongoDB', 'Shadcn'],
         category: 'Web',
-        github: '#',
-        demo: 'https://mern-food-delivery-beta.vercel.app/',
+        github: 'https://github.com/sananbsd2021/MERN-FoodDelivery',
+        demo: 'https://mern-food-delivery-sigma.vercel.app/',
         image: 'food.png',
     },
     {
@@ -53,7 +53,7 @@ const projects = [
         description: 'แพลตฟอร์ม Living Room มือสอง ซื้อบ้าน ขายบ้าน คอนโด ที่ดิน อพาร์ทเม้นท์ อสังหาริมทรัพย์ระดับพรีเมียม',
         tags: ['Next.js', 'Tailwind', 'MongoDB', 'Shadcn'],
         category: 'Web',
-        github: '#',
+        github: 'https://github.com/sananbsd2021/MERN-Livingroom',
         demo: 'https://mern-livingroom.vercel.app/',
         image: 'livingroom.png',
     },
@@ -62,16 +62,16 @@ const projects = [
         description: 'ระบบจัดการคลังสินค้าสำหรับองค์กรขนาดใหญ่ พร้อมระบบสั่งสินค้าและแดชบอร์ดสรุปผลแบบเรียลไทม์',
         tags: ['React', 'Node.js', 'Socket.io', 'Tailwind'],
         category: 'Fullstack',
-        github: '#',
+        github: 'https://github.com/sananbsd2021/MERN-WMSpro',
         demo: 'https://mern-wm-spro.vercel.app/',
         image: 'wms.png',
     },
     {
-        title: 'เติมเกมออนไลน์',
-        description: 'เติมเกมออนไลน์',
-        tags: ['Next.js', 'Tailwind', 'MongoDB', 'Shadcn'],
-        category: 'Fullstack',
-        github: '#',
+        title: 'Mobile Application Line OA Line Liff Application',
+        description: 'Line LIFF : Mobile Application Line OA Line Liff Application เชื่อมต่อกับ Line สำหรับธุรกิจ',
+        tags: ['Mobile App', 'Tailwind', 'Line LIFF'],
+        category: 'Mobile App',
+        github: 'https://github.com/sananbsd2021/LineLiff',
         demo: 'https://mern-app-script.vercel.app',
         image: 'lineliff.png',
     },
@@ -80,15 +80,15 @@ const projects = [
         description: 'REST API พร้อม Deploy แล้ว ด้วยพลัง Elysia + MongoDB',
         tags: ['Bun', 'Elysia', 'Mongodb'],
         category: 'API',
-        github: '#',
+        github: 'https://github.com/sananbsd2021/elysia-api-development',
         demo: 'https://elysia-api-development.vercel.app/',
         image: 'api.png',
     },
-        {
-        title: 'Bun + Elysia + MongoDB = Stack ที่ Dev สาย Performance',
-        description: 'REST API พร้อม Deploy แล้ว ด้วยพลัง Elysia + MongoDB',
-        tags: ['Bun', 'Elysia', 'Mongodb'],
-        category: 'API',
+    {
+        title: 'เติมเกมออนไลน์',
+        description: 'เติมเกมออนไลน์',
+        tags: ['Next.js', 'Tailwind', 'MongoDB', 'Shadcn'],
+        category: 'Fullstack',
         github: '#',
         demo: 'https://mern-register-news.vercel.app/',
         image: 'api.png',
