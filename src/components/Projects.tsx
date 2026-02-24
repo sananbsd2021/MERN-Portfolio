@@ -93,6 +93,15 @@ const projects = [
         demo: 'https://mern-register-news.vercel.app/',
         image: 'api.png',
     },
+        {
+        title: 'ระบบจัดการพัสดุ (PMS Pro)',
+        description: 'ระบบจัดการพัสดุ (PMS Pro)',
+        tags: ['Next.js', 'Tailwind', 'MongoDB', 'Shadcn'],
+        category: 'Fullstack',
+        github: '#',
+        demo: 'https://mern-patsadu.vercel.app/',
+        image: 'api.png',
+    },
 ];
 
 function ProjectCard({ project, index }: { project: typeof projects[0], index: number }) {
