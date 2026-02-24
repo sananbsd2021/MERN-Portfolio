@@ -93,13 +93,22 @@ const projects = [
         demo: 'https://mern-register-news.vercel.app/',
         image: 'api.png',
     },
-        {
+    {
         title: 'ระบบจัดการพัสดุ (PMS Pro)',
         description: 'ระบบจัดการพัสดุ (PMS Pro)',
         tags: ['Next.js', 'Tailwind', 'MongoDB', 'Shadcn'],
         category: 'Fullstack',
         github: '#',
         demo: 'https://mern-patsadu.vercel.app/',
+        image: 'api.png',
+    },
+    {
+        title: 'ระบบสารบรรณอิเล็กทรอนิกส์',
+        description: 'ระบบสารบรรณอิเล็กทรอนิกส์',
+        tags: ['Next.js', 'Tailwind', 'MongoDB', 'Shadcn'],
+        category: 'Fullstack',
+        github: '#',
+        demo: 'https://mern-app2026.vercel.app',
         image: 'api.png',
     },
 ];
