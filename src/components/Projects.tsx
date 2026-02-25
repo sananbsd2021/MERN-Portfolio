@@ -118,7 +118,7 @@ const projects = [
         category: 'Fullstack',
         github: '#',
         demo: 'https://mern-sandingview.vercel.app/',
-        image: 'api.png',
+        image: 'sandingview.png',
     },
 ];
 
