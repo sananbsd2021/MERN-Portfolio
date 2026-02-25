@@ -111,6 +111,15 @@ const projects = [
         demo: 'https://mern-app2026.vercel.app',
         image: 'api.png',
     },
+    {
+        title: 'การเทรดที่ดีที่สุดต้องผ่านการค้นคว้าและความมุ่งมั่น',
+        description: 'การเทรดที่ดีที่สุดต้องผ่านการค้นคว้าและความมุ่งมั่น',
+        tags: ['Next.js', 'Tailwind', 'Shadcn'],
+        category: 'Fullstack',
+        github: '#',
+        demo: 'https://mern-sandingview.vercel.app/',
+        image: 'api.png',
+    },
 ];
 
 function ProjectCard({ project, index }: { project: typeof projects[0], index: number }) {
