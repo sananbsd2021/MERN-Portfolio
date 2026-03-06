@@ -99,7 +99,7 @@ const projects = [
         tags: ['Next.js', 'Tailwind', 'MongoDB', 'Shadcn'],
         category: 'Fullstack',
         github: '#',
-        demo: 'https://mern-patsadu.vercel.app/',
+        demo: 'https://mern-patsadu.vercel.app',
         image: 'api.png',
     },
     {
