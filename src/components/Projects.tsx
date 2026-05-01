@@ -109,7 +109,7 @@ const projects = [
         category: 'Fullstack',
         github: '#',
         demo: 'https://mern-app2026.vercel.app',
-        image: 'api.png',
+        image: 'edoc.png',
     },
     {
         title: 'การเทรดที่ดีที่สุดต้องผ่านการค้นคว้าและความมุ่งมั่น',
