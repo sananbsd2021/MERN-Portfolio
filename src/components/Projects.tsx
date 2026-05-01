@@ -100,7 +100,7 @@ const projects = [
         category: 'Fullstack',
         github: '#',
         demo: 'https://mern-patsadu.vercel.app',
-        image: 'api.png',
+        image: 'patsadu.png',
     },
     {
         title: 'ระบบสารบรรณอิเล็กทรอนิกส์',
