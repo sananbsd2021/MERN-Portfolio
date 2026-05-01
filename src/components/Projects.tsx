@@ -91,7 +91,7 @@ const projects = [
         category: 'Fullstack',
         github: '#',
         demo: 'https://mern-register-news.vercel.app/',
-        image: 'api.png',
+        image: 'Games.png',
     },
     {
         title: 'ระบบจัดการพัสดุ (PMS Pro)',
