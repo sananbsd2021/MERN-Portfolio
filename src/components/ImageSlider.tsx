@@ -6,7 +6,7 @@ import Image from 'next/image'
 const images = [
     '/S__6135810.jpg',
     '/sanan__4448270.jpg',
-    'https://picsum.photos/id/1018/1200/500',
+    '',
 ]
 
 export default function ImageSlider() {
