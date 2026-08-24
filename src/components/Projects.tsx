@@ -127,7 +127,7 @@ const projects = [
         category: 'Fullstack',
         github: '#',
         demo: 'https://video-downloader-coral-phi.vercel.app/',
-        image: 'sandingview.png',
+        image: '',
     },
 ];
 
