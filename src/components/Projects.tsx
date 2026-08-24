@@ -120,6 +120,15 @@ const projects = [
         demo: 'https://mern-sandingview.vercel.app/',
         image: 'sandingview.png',
     },
+        {
+        title: 'ดาวน์โหลดวิดีโอ Facebook & YouTube ได้ง่ายในคลิกเดียว',
+        description: 'ดาวน์โหลดวิดีโอ Facebook & YouTube ได้ง่ายในคลิกเดียว',
+        tags: ['Next.js', 'Tailwind', 'Shadcn'],
+        category: 'Fullstack',
+        github: '#',
+        demo: 'https://video-downloader-coral-phi.vercel.app/',
+        image: 'sandingview.png',
+    },
 ];
 
 function ProjectCard({ project, index }: { project: typeof projects[0], index: number }) {
