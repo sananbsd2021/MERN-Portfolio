@@ -45,7 +45,7 @@ const projects = [
         tags: ['Next.js', 'Tailwind', 'MongoDB', 'Shadcn'],
         category: 'Web',
         github: '#',
-        demo: 'https://fooddelivery-alpha-mocha.vercel.app',
+        demo: 'https://food-deli-v2.vercel.app/',
         image: 'food.png',
     },
     {
