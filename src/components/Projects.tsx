@@ -136,7 +136,7 @@ const projects = [
         category: 'Fullstack',
         github: '#',
         demo: 'https://restaurant-ordering-tau.vercel.app/',
-        image: '',
+        image: 'ResHome_Banner_03-1.png',
     },
 ];
 
