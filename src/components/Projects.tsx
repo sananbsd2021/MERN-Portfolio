@@ -129,6 +129,15 @@ const projects = [
         demo: 'https://video-downloader-coral-phi.vercel.app/',
         image: '',
     },
+        {
+        title: 'ระบบสั่งอาหารออนไล์ สำหรับร้านอาหาร',
+        description: 'ระบบสั่งอาหารออนไล์ สำหรับร้านอาหาร',
+        tags: ['Next.js', 'Tailwind CSS', 'Shadcn/ui'],
+        category: 'Fullstack',
+        github: '#',
+        demo: 'https://restaurant-ordering-tau.vercel.app/',
+        image: '',
+    },
 ];
 
 function ProjectCard({ project, index }: { project: typeof projects[0], index: number }) {
