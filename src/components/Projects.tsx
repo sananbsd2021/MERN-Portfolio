@@ -138,6 +138,15 @@ const projects = [
         demo: 'https://foodorderv02.vercel.app/',
         image: 'ResHome_Banner_03-1.png',
     },
+            {
+        title: 'ระบบยืมคิรหนังสือ สำหรับห้องสมุด',
+        description: 'ระบบยืมคิรหนังสือ สำหรับห้องสมุด',
+        tags: ['Next.js', 'Tailwind CSS', 'Shadcn/ui'],
+        category: 'Fullstack',
+        github: '#',
+        demo: 'https://libraryv01.vercel.app/',
+        image: '',
+    },
 ];
 
 function ProjectCard({ project, index }: { project: typeof projects[0], index: number }) {
