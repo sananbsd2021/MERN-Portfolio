@@ -135,7 +135,7 @@ const projects = [
         tags: ['Next.js', 'Tailwind CSS', 'Shadcn/ui'],
         category: 'Fullstack',
         github: '#',
-        demo: 'https://restaurant-ordering-tau.vercel.app/',
+        demo: 'https://foodorderv02.vercel.app/',
         image: 'ResHome_Banner_03-1.png',
     },
 ];
