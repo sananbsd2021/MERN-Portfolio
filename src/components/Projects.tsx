@@ -147,6 +147,15 @@ const projects = [
         demo: 'https://libraryv01.vercel.app/',
         image: '',
     },
+                {
+        title: 'ระบบแจ้งซ่อม',
+        description: 'ระบบแจ้งซ่อม',
+        tags: ['Next.js', 'Tailwind CSS', 'Shadcn/ui'],
+        category: 'Fullstack',
+        github: '#',
+        demo: 'https://repair-request-system-ochre.vercel.app',
+        image: '',
+    },
 ];
 
 function ProjectCard({ project, index }: { project: typeof projects[0], index: number }) {
