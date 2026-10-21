@@ -156,6 +156,15 @@ const projects = [
         demo: 'https://repair-request-system-ochre.vercel.app',
         image: '',
     },
+                    {
+        title: 'ระบบบริหารจัดการครุภัณฑ์',
+        description: '',
+        tags: ['App Script', 'HTML', 'Google Sheet'],
+        category: 'Fullstack',
+        github: '#',
+        demo: 'https://script.google.com/macros/s/AKfycbxrjb7OnEHSKabV4Wl9_VeHs8IFE5Iog0YqN5BLEGCRfBskv1NUaKKMFC3qT9wIbHwrVg/exec',
+        image: '',
+    },
 ];
 
 function ProjectCard({ project, index }: { project: typeof projects[0], index: number }) {
