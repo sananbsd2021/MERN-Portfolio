@@ -156,13 +156,22 @@ const projects = [
         demo: 'https://repair-request-system-ochre.vercel.app',
         image: '',
     },
-                    {
+     {
         title: 'ระบบบริหารจัดการครุภัณฑ์',
         description: '',
         tags: ['App Script', 'HTML', 'Google Sheet'],
         category: 'Fullstack',
         github: '#',
         demo: 'https://script.google.com/macros/s/AKfycbxrjb7OnEHSKabV4Wl9_VeHs8IFE5Iog0YqN5BLEGCRfBskv1NUaKKMFC3qT9wIbHwrVg/exec',
+        image: '',
+    },
+                        {
+        title: 'ระบบคำนวณปันผล สหกรณ์ออมทรพย์ รพช.ร้อยเอ็ด จำกัด',
+        description: 'ระบบคำนวณปันผล สหกรณ์ออมทรพย์ รพช.ร้อยเอ็ด จำกัด',
+        tags: ['Next.js', 'Tailwind CSS', 'Shadcn/ui'],
+        category: 'Fullstack',
+        github: '#',
+        demo: 'https://dividend-calc-v1.vercel.app/',
         image: '',
     },
 ];
