@@ -175,8 +175,8 @@ const projects = [
         image: '',
     },
     {
-        title: 'ระบบปฏิทินการประชุม องค์การบริหารส่วนตำบลมะบ้า',
-        description: 'ระบบปฏิทินการประชุม องค์การบริหารส่วนตำบลมะบ้า',
+        title: 'ระบบปฏิทินการประชุม',
+        description: 'ระบบปฏิทินการประชุม',
         tags: ['App Script', 'HTML', 'Google Sheet'],
         category: 'Fullstack',
         github: '#',
