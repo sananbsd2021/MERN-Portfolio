@@ -165,7 +165,7 @@ const projects = [
         demo: 'https://script.google.com/macros/s/AKfycbxrjb7OnEHSKabV4Wl9_VeHs8IFE5Iog0YqN5BLEGCRfBskv1NUaKKMFC3qT9wIbHwrVg/exec',
         image: '',
     },
-                        {
+    {
         title: 'ระบบคำนวณปันผล สหกรณ์ออมทรพย์ รพช.ร้อยเอ็ด จำกัด',
         description: 'ระบบคำนวณปันผล สหกรณ์ออมทรพย์ รพช.ร้อยเอ็ด จำกัด',
         tags: ['Next.js', 'Tailwind CSS', 'Shadcn/ui'],
@@ -174,6 +174,17 @@ const projects = [
         demo: 'https://dividend-calc-v1.vercel.app/',
         image: '',
     },
+    {
+        title: 'ระบบปฏิทินการประชุม องค์การบริหารส่วนตำบลมะบ้า',
+        description: 'ระบบปฏิทินการประชุม องค์การบริหารส่วนตำบลมะบ้า',
+        tags: ['App Script', 'HTML', 'Google Sheet'],
+        category: 'Fullstack',
+        github: '#',
+        demo: 'https://script.google.com/macros/s/AKfycbwXBr-Ap5uxjsDJqUgOJ5tU76NrKz-54DvQWZjpnAFu09EyUogd6ClByhxywPB_Cx1J/exec',
+        image: '',
+    },
+
+    
 ];
 
 function ProjectCard({ project, index }: { project: typeof projects[0], index: number }) {
