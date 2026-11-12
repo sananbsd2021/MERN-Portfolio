@@ -127,7 +127,7 @@ const projects = [
         category: 'Fullstack',
         github: '#',
         demo: 'https://video-downloader-coral-phi.vercel.app/',
-        image: '',
+        image: 'project_appscript.jpeg',
     },
         {
         title: 'ระบบสั่งอาหารออนไล์ สำหรับร้านอาหาร',
@@ -145,7 +145,7 @@ const projects = [
         category: 'Fullstack',
         github: '#',
         demo: 'https://libraryv01.vercel.app/',
-        image: '',
+        image: 'project_appscript.jpeg',
     },
                 {
         title: 'ระบบแจ้งซ่อม',
@@ -154,7 +154,7 @@ const projects = [
         category: 'Fullstack',
         github: '#',
         demo: 'https://repair-request-system-ochre.vercel.app',
-        image: '',
+        image: 'project_appscript.jpeg',
     },
      {
         title: 'ระบบบริหารจัดการครุภัณฑ์',
@@ -163,7 +163,7 @@ const projects = [
         category: 'Fullstack',
         github: '#',
         demo: 'https://script.google.com/macros/s/AKfycbxrjb7OnEHSKabV4Wl9_VeHs8IFE5Iog0YqN5BLEGCRfBskv1NUaKKMFC3qT9wIbHwrVg/exec',
-        image: '',
+        image: 'project_appscript.jpeg',
     },
     {
         title: 'ระบบคำนวณปันผล สหกรณ์ออมทรพย์ รพช.ร้อยเอ็ด จำกัด',
@@ -172,7 +172,7 @@ const projects = [
         category: 'Fullstack',
         github: '#',
         demo: 'https://dividend-calc-v1.vercel.app/',
-        image: '',
+        image: 'project_appscript.jpeg',
     },
     {
         title: 'ระบบปฏิทินการประชุม',
@@ -181,7 +181,7 @@ const projects = [
         category: 'Fullstack',
         github: '#',
         demo: 'https://script.google.com/macros/s/AKfycbwXBr-Ap5uxjsDJqUgOJ5tU76NrKz-54DvQWZjpnAFu09EyUogd6ClByhxywPB_Cx1J/exec',
-        image: '',
+        image: 'project_appscript.jpeg',
     },    
     {
         title: '🚗 จองรถยนต์ออนไลน์',
@@ -190,7 +190,7 @@ const projects = [
         category: 'App Script',
         github: '#',
         demo: 'https://script.google.com/macros/s/AKfycbzi3sJ_4EvJDmc0z5VltK2subJuKi7T2HPkw7P757DonGxuuLfDoOpCa2t_DZkukozN/exec',
-        image: '',
+        image: 'project_appscript.jpeg',
     },    
 ];
 
