@@ -355,12 +355,18 @@
 //         </section>
 //     );
 // }
-
 'use client';
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ExternalLink, Github, Image as ImageIcon, Filter } from 'lucide-react';
+import {
+    ExternalLink,
+    Github,
+    Image as ImageIcon,
+    Filter,
+    ChevronLeft,
+    ChevronRight,
+} from 'lucide-react';
 import {
     Card,
     CardContent,
@@ -565,6 +571,8 @@ const projects = [
     },
 ];
 
+const ITEMS_PER_PAGE = 4; // กำหนดจำนวนการ์ดต่อหน้า
+
 function ProjectCard({
     project,
     index,
@@ -603,7 +611,7 @@ function ProjectCard({
                             }
                             alt={project.title}
                             fill
-                            sizes="(max-width: 768px) 100vw, 33vw"
+                            sizes="(max-width: 768px) 100vw, 25vw"
                             className="object-cover transition-transform duration-500 group-hover:scale-110"
                             onError={() => setImageError(true)}
                         />
@@ -677,11 +685,27 @@ function ProjectCard({
 
 export default function Projects() {
     const [activeCategory, setActiveCategory] = useState('All');
+    const [currentPage, setCurrentPage] = useState(1);
 
+    // 1. กรองโปรเจกต์ตามหมวดหมู่
     const filteredProjects =
         activeCategory === 'All'
             ? projects
             : projects.filter((project) => project.category === activeCategory);
+
+    // 2. คำนวณจำนวนหน้าทั้งหมดและตัดข้อมูลเฉพาะหน้านั้น
+    const totalPages = Math.ceil(filteredProjects.length / ITEMS_PER_PAGE);
+    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+    const paginatedProjects = filteredProjects.slice(
+        startIndex,
+        startIndex + ITEMS_PER_PAGE
+    );
+
+    // 3. ฟังก์ชันเปลี่ยนหมวดหมู่พร้อมรีเซ็ตกลับไปหน้า 1
+    const handleCategoryChange = (category: string) => {
+        setActiveCategory(category);
+        setCurrentPage(1);
+    };
 
     return (
         <section id="projects" className="py-24 bg-background/50 relative overflow-hidden">
@@ -720,7 +744,7 @@ export default function Projects() {
                                 key={category}
                                 variant={activeCategory === category ? 'default' : 'outline'}
                                 size="sm"
-                                onClick={() => setActiveCategory(category)}
+                                onClick={() => handleCategoryChange(category)}
                                 className={`rounded-full px-6 transition-all duration-300 ${
                                     activeCategory === category
                                         ? 'shadow-lg shadow-primary/20 scale-105'
@@ -733,16 +757,71 @@ export default function Projects() {
                     </motion.div>
                 </div>
 
+                {/* แสดงการ์ด 4 ใบต่อ 1 แถว (บนจอใหญ่ lg:grid-cols-4) */}
                 <motion.div
                     layout
                     className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 min-h-[400px]"
                 >
                     <AnimatePresence mode="popLayout">
-                        {filteredProjects.map((project, index) => (
+                        {paginatedProjects.map((project, index) => (
                             <ProjectCard key={project.title} project={project} index={index} />
                         ))}
                     </AnimatePresence>
                 </motion.div>
+
+                {/* ส่วนควบคุมการแบ่งหน้า (Pagination Controls) */}
+                {totalPages > 1 && (
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-12">
+                        <div className="flex items-center gap-2">
+                            <Button
+                                variant="outline"
+                                size="icon"
+                                onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
+                                disabled={currentPage === 1}
+                                className="rounded-full"
+                                aria-label="Previous page"
+                            >
+                                <ChevronLeft className="h-4 w-4" />
+                            </Button>
+
+                            <div className="flex items-center gap-1.5">
+                                {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                                    <Button
+                                        key={page}
+                                        variant={currentPage === page ? 'default' : 'outline'}
+                                        size="sm"
+                                        onClick={() => setCurrentPage(page)}
+                                        className={`w-9 h-9 rounded-full transition-all ${
+                                            currentPage === page
+                                                ? 'shadow-md shadow-primary/20 scale-105'
+                                                : 'hover:bg-primary/5'
+                                        }`}
+                                    >
+                                        {page}
+                                    </Button>
+                                ))}
+                            </div>
+
+                            <Button
+                                variant="outline"
+                                size="icon"
+                                onClick={() =>
+                                    setCurrentPage((prev) => Math.min(prev + 1, totalPages))
+                                }
+                                disabled={currentPage === totalPages}
+                                className="rounded-full"
+                                aria-label="Next page"
+                            >
+                                <ChevronRight className="h-4 w-4" />
+                            </Button>
+                        </div>
+
+                        <span className="text-sm text-muted-foreground">
+                            หน้า {currentPage} จาก {totalPages} (ทั้งหมด {filteredProjects.length}{' '}
+                            ผลงาน)
+                        </span>
+                    </div>
+                )}
 
                 {filteredProjects.length === 0 && (
                     <div className="flex flex-col items-center justify-center py-20 text-muted-foreground">
