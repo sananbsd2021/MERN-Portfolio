@@ -166,8 +166,8 @@ const projects = [
         image: 'project_appscript.jpeg',
     },
     {
-        title: 'ระบบคำนวณปันผล สหกรณ์ออมทรพย์ รพช.ร้อยเอ็ด จำกัด',
-        description: 'ระบบคำนวณปันผล สหกรณ์ออมทรพย์ รพช.ร้อยเอ็ด จำกัด',
+        title: 'ระบบคำนวณปันผล',
+        description: 'ระบบคำนวณปันผล',
         tags: ['Next.js', 'Tailwind CSS', 'Shadcn/ui'],
         category: 'Fullstack',
         github: '#',
