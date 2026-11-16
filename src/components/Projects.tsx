@@ -214,7 +214,7 @@ const projects = [
     },
 ];
 
-const ITEMS_PER_PAGE = 3; // กำหนดจำนวนการ์ดต่อหน้า
+const ITEMS_PER_PAGE = 4; // กำหนดจำนวนการ์ดต่อหน้า
 
 function ProjectCard({
     project,
